@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "act4_cercle", "act4_cercle\act4_cercle.csproj", "{07A88887-3F2C-49D6-AA36-E25374DAB7FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A88887-3F2C-49D6-AA36-E25374DAB7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A88887-3F2C-49D6-AA36-E25374DAB7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A88887-3F2C-49D6-AA36-E25374DAB7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A88887-3F2C-49D6-AA36-E25374DAB7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB1C7261-40C7-4CE0-B026-9BF9C12E0855}
+	EndGlobalSection
+EndGlobal
