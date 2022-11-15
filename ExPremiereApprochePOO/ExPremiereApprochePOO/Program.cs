@@ -6,7 +6,7 @@ namespace ExPremiereApprochePOO
     {
         static void Main(string[] args)
         {
-            chien[] mesChiens = new chien[3];
+            chienBis[] mesChiens = new chienBis[3];
 
             for (int i = 0; i < 3; i++)
             {
@@ -17,8 +17,10 @@ namespace ExPremiereApprochePOO
                 Console.WriteLine("Quel est la race de votre chien ?");
                 string raceChien = Console.ReadLine();
 
-                mesChiens[i] = new chien(nomChien, ageChien, raceChien);
-                Console.WriteLine(mesChiens[i].AfficheCaracteristiques());
+                mesChiens[i] = new chienBis(nomChien, ageChien, raceChien);
+                Console.WriteLine(mesChiens[i].AfficheCaracteristique());
+
+                Console.WriteLine(mesChiens[i].CalculeAgeMoyenne());
             }
         }
     }
