@@ -1,0 +1,14 @@
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.csproj.AssemblyReference.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.AssemblyInfoInputs.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.AssemblyInfo.cs
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.csproj.CoreCompileInputs.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.exe
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.deps.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.runtimeconfig.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.runtimeconfig.dev.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.dll
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\bin\Debug\netcoreapp3.1\nombre_complexe.pdb
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.dll
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.pdb
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\nombre_complexe\nombre_complexe\obj\Debug\netcoreapp3.1\nombre_complexe.genruntimeconfig.cache
