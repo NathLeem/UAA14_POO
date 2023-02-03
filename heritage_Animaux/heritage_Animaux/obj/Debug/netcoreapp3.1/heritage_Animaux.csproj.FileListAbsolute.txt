@@ -1,0 +1,13 @@
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.exe
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.deps.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.runtimeconfig.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.runtimeconfig.dev.json
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.dll
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\bin\Debug\netcoreapp3.1\heritage_Animaux.pdb
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.GeneratedMSBuildEditorConfig.editorconfig
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.AssemblyInfoInputs.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.AssemblyInfo.cs
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.csproj.CoreCompileInputs.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.dll
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.pdb
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\heritage_Animaux\heritage_Animaux\obj\Debug\netcoreapp3.1\heritage_Animaux.genruntimeconfig.cache

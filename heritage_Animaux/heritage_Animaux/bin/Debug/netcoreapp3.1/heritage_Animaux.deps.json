@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "heritage_Animaux/1.0.0": {
+        "runtime": {
+          "heritage_Animaux.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "heritage_Animaux/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

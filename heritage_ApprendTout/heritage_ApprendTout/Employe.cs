@@ -14,5 +14,10 @@ namespace heritage_ApprendTout
             this._dateEmbauche = dateEmbauche;
             this._fonction = fonction;
         }
+        public string FabriqueEtiq()
+        {
+            string etiquette = this._nom + "\n" + this._fonction + "\n" + this._dateEmbauche;
+            return etiquette;
+        }
     }
 }

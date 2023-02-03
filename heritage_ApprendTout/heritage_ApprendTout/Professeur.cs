@@ -10,7 +10,12 @@ namespace heritage_ApprendTout
 
         public Professeur(string specialisation ,string nom, string adresse, int codePostal, string localite) : base(nom, adresse, codePostal, localite)
         {
-
+            this._specialisation = specialisation;
+        }
+        public string FabriqueEtiq()
+        {
+            string etiquette = this._specialisation + "\n";
+            return etiquette;
         }
     }
 }
