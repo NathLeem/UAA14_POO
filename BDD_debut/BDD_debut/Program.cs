@@ -10,9 +10,11 @@ namespace BDD_debut
     {
         static void Main(string[] args)
         {
-            string nomSociete = "";
+            Console.WriteLine("Quel société recherchez-vous");
+            string nomSociete = Console.ReadLine();
+
             Console.WriteLine("");
-            nomSociete = Console.ReadLine();
+            string nomMessager = Console.ReadLine();
         }
     }
 }
