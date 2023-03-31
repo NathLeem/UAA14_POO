@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:CourseLevriers"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <BitmapImage x:Key="chien" UriSource="image/dog.png"/>
+            <BitmapImage x:Key="piste" UriSource="image/racetrack.png"/>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

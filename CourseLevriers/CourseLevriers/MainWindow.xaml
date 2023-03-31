@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CourseLevriers"
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="850">
-    <Grid>
+    <Grid x:Name="plateau">
         <Grid.RowDefinitions>
             <RowDefinition Height="300"/>
             <RowDefinition Height="400"/>
@@ -16,8 +16,8 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Canvas HorizontalAlignment="Stretch">
-            <Image Source="racetrack.png"></Image>
+        <Canvas x:Name="piste">
+            <Image Source="image/racetrack.png" Height="300" Width="850"/>
         </Canvas>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -58,7 +58,7 @@
                         </StackPanel>
 
                         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-                            <TextBlock HorizontalAlignment="Center" Width="850">Bill<Button x:Name="btnPari" Margin="5">Parie</Button><TextBox x:Name="txtNbrEcu" Text="0"/> écus sur le chien numéro<TextBox/><Button x:Name="btnlancer" Content="Lancer la course"/></TextBlock>
+                            <TextBlock HorizontalAlignment="Center" Width="850">Bill<Button x:Name="btnPari" Click="btnPari_Click" Margin="5" >Parie</Button><TextBox Width="30" Height="20" x:Name="txtNbrEcu" Text="0"/> écus sur le chien numéro<TextBox x:Name="txtChien" Height="20" Width="30"/><Button x:Name="btnlancer" Click="btnlancer_Click" Content="Lancer la course"/></TextBlock>
                             <Button Width="850">RESET</Button>
                         </StackPanel>
                     </Grid>

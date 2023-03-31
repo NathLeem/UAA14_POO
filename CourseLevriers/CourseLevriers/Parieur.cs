@@ -8,9 +8,14 @@ namespace CourseLevriers
 {
     class Parieur
     {
-        string _nom;
+        string _nom = "";
         Pari _monPari = new Pari();
         int _cash;
+        public Parieur(string nom, int cash)
+        {
+            _nom = nom;
+            _cash = cash;
+        }
 
         public void Parie(int valeurPari, int numChien)
         {

@@ -24,5 +24,24 @@ namespace CourseLevriers
         {
             InitializeComponent();
         }
+
+        private void btnlancer_Click(object sender, RoutedEventArgs e)
+        {
+            int[] tabChien = new int[2];
+            tabChien[0] = 40;
+            tabChien[1] = 20;
+            Chien chien1 = new Chien(1, tabChien);
+            Chien chien2 = new Chien(1, tabChien);
+            Chien chien3 = new Chien(1, tabChien);
+            chien1.Court();
+            chien2.Court();
+            chien3.Court();
+        }
+        private void btnPari_Click(object sender, RoutedEventArgs e)
+        {
+            Parieur Joe = new Parieur("Joe", 50);
+            Parieur Bob = new Parieur("Bob", 50);
+            Parieur Bill = new Parieur("Bill", 50);
+        }
     }
 }

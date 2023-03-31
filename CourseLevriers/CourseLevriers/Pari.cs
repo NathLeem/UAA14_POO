@@ -10,7 +10,6 @@ namespace CourseLevriers
     {
         int _montant;
         int _numChien;
-        Parieur _joueur = new Parieur();
 
         public void GetDescription()
         {
