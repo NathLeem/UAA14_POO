@@ -31,11 +31,16 @@ namespace CourseLevriers
             tabChien[0] = 40;
             tabChien[1] = 20;
             Chien chien1 = new Chien(1, tabChien);
-            Chien chien2 = new Chien(1, tabChien);
-            Chien chien3 = new Chien(1, tabChien);
+            tabChien[1] = 100;
+            Chien chien2 = new Chien(2, tabChien);
+            tabChien[1] = 180;
+            Chien chien3 = new Chien(3, tabChien);
+            tabChien[1] = 260;
+            Chien chien4 = new Chien(4, tabChien);
             chien1.Court();
             chien2.Court();
             chien3.Court();
+            chien4.Court();
         }
         private void btnPari_Click(object sender, RoutedEventArgs e)
         {

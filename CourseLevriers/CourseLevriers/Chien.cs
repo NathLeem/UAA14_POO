@@ -30,7 +30,7 @@ namespace CourseLevriers
             Image monImage = new Image();
             monImage.Source = imageChien;
             monImage.Stretch = System.Windows.Media.Stretch.None;
-
+            
             Canvas.SetLeft(monImage, positionCourante[0]);
             Canvas.SetTop(monImage, positionCourante[1]);
             plateau.piste.Children.Add(monImage);
@@ -38,12 +38,19 @@ namespace CourseLevriers
         public void Court()
         {
             Random rnd = new Random();
+            Image monImage = new Image();
+            monImage.Source = imageChien;
             
-            for (int i = 0; i < _longueurPiste; i++)
+            
+            while (_longueurPiste >= _positionCourante[0])
             {
                 _positionCourante[0] = _positionCourante[0] + rnd.Next(1,10);
+
+                Canvas.SetLeft(monImage, _positionCourante[0]);
             }
             _gagne = true;
+            
+            string chienGagne = "Le chien n°" + _numChien +" à gagner la course";
         }
     }
 }
