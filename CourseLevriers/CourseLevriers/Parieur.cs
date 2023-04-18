@@ -19,11 +19,11 @@ namespace CourseLevriers
 
         public void Parie(int valeurPari, int numChien)
         {
-
+            
         }
         public void ResetPari()
         {
-
+            
         }
         public void MajInfos()
         {

@@ -37,16 +37,27 @@ namespace CourseLevriers
             Chien chien3 = new Chien(3, tabChien);
             tabChien[1] = 260;
             Chien chien4 = new Chien(4, tabChien);
-            chien1.Court();
-            chien2.Court();
-            chien3.Court();
-            chien4.Court();
+            int[] tabToutChien = new int[1];
+            chien1.CourtEnsemble(chien1,chien2,chien3,chien4);
         }
         private void btnPari_Click(object sender, RoutedEventArgs e)
         {
+            int valeurPari = 0;
+            valeurPari = Int32.Parse(txtNbrEcu.Text);
             Parieur Joe = new Parieur("Joe", 50);
+            if ((bool)rdJoe.IsChecked)
+            {
+
+            }
             Parieur Bob = new Parieur("Bob", 50);
             Parieur Bill = new Parieur("Bill", 50);
+        }
+
+        private void btnReset_Click(object sender, RoutedEventArgs e)
+        {
+            txtJoe.Text = "Joe n'a pas encore parié";
+            txtBill.Text = "Bill n'a pas encore parié";
+            txtBob.Text = "Bob n'a pas encore parié";
         }
     }
 }

@@ -59,7 +59,7 @@
 
                         <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
                             <TextBlock HorizontalAlignment="Center" Width="850">Bill<Button x:Name="btnPari" Click="btnPari_Click" Margin="5" >Parie</Button><TextBox Width="30" Height="20" x:Name="txtNbrEcu" Text="0"/> écus sur le chien numéro<TextBox x:Name="txtChien" Height="20" Width="30"/><Button x:Name="btnlancer" Click="btnlancer_Click" Content="Lancer la course"/></TextBlock>
-                            <Button Width="850">RESET</Button>
+                            <Button x:Name="btnReset" Width="850" Click="btnReset_Click">RESET</Button>
                         </StackPanel>
                     </Grid>
                 </StackPanel>

@@ -1,0 +1,5 @@
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\Guichet_bancaire\Guichet_bancaire\obj\Debug\Guichet_bancaire.csproj.AssemblyReference.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\Guichet_bancaire\Guichet_bancaire\obj\Debug\MainWindow.g.cs
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\Guichet_bancaire\Guichet_bancaire\obj\Debug\App.g.cs
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\Guichet_bancaire\Guichet_bancaire\obj\Debug\Guichet_bancaire_MarkupCompile.cache
+H:\6TI\Progra\ExGit\UAA14\UAA14_POO\Guichet_bancaire\Guichet_bancaire\obj\Debug\Guichet_bancaire_MarkupCompile.lref

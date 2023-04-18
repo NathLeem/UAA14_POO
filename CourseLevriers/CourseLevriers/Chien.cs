@@ -41,7 +41,6 @@ namespace CourseLevriers
             Image monImage = new Image();
             monImage.Source = imageChien;
             
-            
             while (_longueurPiste >= _positionCourante[0])
             {
                 _positionCourante[0] = _positionCourante[0] + rnd.Next(1,10);
@@ -51,6 +50,16 @@ namespace CourseLevriers
             _gagne = true;
             
             string chienGagne = "Le chien n°" + _numChien +" à gagner la course";
+        }
+        public void CourtEnsemble(Chien chien1, Chien chien2, Chien chien3, Chien chien4)
+        {
+            do
+            {
+                chien1.Court();
+                chien2.Court();
+                chien3.Court();
+                chien4.Court();
+            } while (_gagne == false);
         }
     }
 }
