@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Guichet_bancaire"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="GhostWhite">
     <Grid x:Name="grdMain">
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Frame x:Name="main" NavigationUIVisibility="Hidden" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
+
+        <TextBlock Grid.ColumnSpan="2" Text="Banque Asty-Moulin" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50"/>
     </Grid>
 </Window>

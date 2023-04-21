@@ -12,25 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Guichet_bancaire.views;
 
-namespace Guichet_bancaire
+namespace Guichet_bancaire.views
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour Operation.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Operation : Page
     {
-        public MainWindow()
+        public Operation()
         {
             InitializeComponent();
-            CreationCompte();
-        }
-
-        public void CreationCompte()
-        {
-            CompteCourant ComptePerso = new CompteCourant("BE64 4568 3455 1500", 0, -2000);
-            CompteEpargne CompteEpargne = new CompteEpargne("BE64 4568 3455 1501", 0, 2);
         }
     }
 }
