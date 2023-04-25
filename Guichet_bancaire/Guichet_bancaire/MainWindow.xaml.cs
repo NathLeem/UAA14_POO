@@ -24,11 +24,13 @@ namespace Guichet_bancaire
         public MainWindow()
         {
             InitializeComponent();
-            CreationCompte();
+            CreationComptePersonne();
+            main.Content = new Connection();
         }
 
-        public void CreationCompte()
+        public void CreationComptePersonne()
         {
+            classes.Personne personne = new classes.Personne("Einstein","Albert","einstein.albert@gmail.com","Test1");
             CompteCourant ComptePerso = new CompteCourant("BE64 4568 3455 1500", 0, -2000);
             CompteEpargne CompteEpargne = new CompteEpargne("BE64 4568 3455 1501", 0, 2);
         }
